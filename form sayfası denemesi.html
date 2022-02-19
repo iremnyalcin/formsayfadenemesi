@@ -72,49 +72,75 @@
     <legend class="p">Aşağıdaki Formu doldurun</legend>
         
     <form class="form">
-        İsim:<input type="text" name="isim">
+
+        İsim:
+        <input id="IsimK" type="text" name="IsimK" placeholder="Isim girin...">
+
         <br>
-        Soyisim:<input type="text" name="soyisim">
-        <br>
-        <button type="submit">Gönder</button>
-        <br>
+
+        Soyisim:
+        <input id="SoyisimK" type="text" name="SoyisimK" placeholder="Soyisim girin...">
+
         Yaş: <select>
+
             <option>0-6</option>
+
             <option>6-18</option>
+
             <option>18-30</option>
+
             <option>30-65</option>
+
             <option>65 ve üzeri</option>
+
         </select>
+
         <br>
-        Öğrenim Durumu: <select>
+
+        Öğrenim Durumu:
+         <select>
+
             <option>İlkokul</option>
+
             <option>Ortaokul</option>
+
             <option>Lise</option>
+
             <option>Üniversite</option>
+
             <option>sanayi</option>
+
         </select>
+
         <br>
+
         Cinsiyet:
         <br>
+
         <input type="radio" name="cinsiyet" value="erkek" id="cinsiyet-erkek-radio">
+
         <label for="cinsiyet-erkek-radio">Erkek</label>
+
         <br>
+
         <input type="radio" name="cinsiyet" value="kadin" id="cinsiyet-kadin-radio">
+
         <label for="cinsiyet-kadin-radio">Kadın</label>
+
         <br>
+
+        <button type="button" id="btnVeri">Gönder</button>
 
     </form>
     <p id="paragraf">Aşağıdaki boşluğa kendinizden bahsedin.</p>
+
     <textarea name="message" id="bosluk" cols="30" rows="10"></textarea>
 
 
     </fieldset>
     
-
-
-
-
-
 </body>
+
+<script src="script.js"></script>
 
 </html>
